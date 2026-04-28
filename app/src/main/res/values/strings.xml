@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Greenhouse Weather</string>
+    <string name="widget_description">Weather for greenhouses: frost alerts, humidity, wind, precipitation</string>
+
+    <string name="config_title">Greenhouse Weather Setup</string>
+    <string name="config_explainer">This widget shows weather optimised for greenhouse care: night-frost warnings, condensation hints, ventilation suggestions, and a daily evapotranspiration estimate for irrigation. Grant location access so the widget can fetch weather for your greenhouse.</string>
+    <string name="config_grant_location">Grant location access</string>
+    <string name="config_done">Add widget</string>
+    <string name="config_status_need_permission">Location access not granted yet.</string>
+    <string name="config_status_ready">Ready. Tap \"Add widget\".</string>
+    <string name="config_status_denied">Permission denied. The widget needs location to show weather.</string>
+
+    <string name="cd_weather_icon">Weather icon</string>
+
+    <string name="widget_loading">Loading…</string>
+    <string name="widget_error">No data</string>
+    <string name="widget_offline">offline</string>
+
+    <string name="alert_frost">❄ Frost tonight: %1$s</string>
+    <string name="alert_freeze">☠ Hard frost tonight: %1$s — protect plants!</string>
+
+    <string name="hint_ventilate">Good time to ventilate: warm and calm</string>
+    <string name="hint_close">Close vents: wind is strong</string>
+    <string name="hint_condensation">Risk of condensation on covers</string>
+    <string name="hint_water">Daily ET₀ ≈ %1$s mm — consider irrigating</string>
+    <string name="hint_neutral">No urgent actions</string>
+
+    <string name="metric_humidity">💧 %1$s%%</string>
+    <string name="metric_wind">💨 %1$s m/s</string>
+    <string name="metric_precip">🌧 %1$s mm</string>
+    <string name="metric_night">🌙 %1$s</string>
+    <string name="feels_like">Feels like %1$s</string>
+</resources>

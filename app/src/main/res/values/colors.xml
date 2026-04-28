@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="widget_bg_start">#E8F5E9</color>
+    <color name="widget_bg_end">#C8E6C9</color>
+    <color name="widget_text_primary">#1B5E20</color>
+    <color name="widget_text_secondary">#2E7D32</color>
+    <color name="widget_text_muted">#558B2F</color>
+    <color name="alert_frost">#F57C00</color>
+    <color name="alert_freeze">#C62828</color>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Погода для теплиці</string>
+    <string name="widget_description">Погода для теплиці: приморозки, вологість, вітер, опади</string>
+
+    <string name="config_title">Налаштування</string>
+    <string name="config_explainer">Віджет показує погоду в контексті тепличного господарства: попередження про нічні приморозки, ризик конденсату, поради щодо провітрювання та орієнтовну норму поливу за добу. Дозвольте доступ до геолокації, щоб бачити погоду саме над вашою теплицею.</string>
+    <string name="config_grant_location">Дозволити геолокацію</string>
+    <string name="config_done">Додати віджет</string>
+    <string name="config_status_need_permission">Дозвіл на геолокацію ще не наданий.</string>
+    <string name="config_status_ready">Готово. Натисніть «Додати віджет».</string>
+    <string name="config_status_denied">Доступ заборонено. Без геолокації віджет не зможе показати погоду.</string>
+
+    <string name="cd_weather_icon">Іконка погоди</string>
+
+    <string name="widget_loading">Завантаження…</string>
+    <string name="widget_error">Немає даних</string>
+    <string name="widget_offline">офлайн</string>
+
+    <string name="alert_frost">❄ Приморозки вночі: %1$s</string>
+    <string name="alert_freeze">☠ Сильні приморозки вночі: %1$s — захистіть рослини!</string>
+
+    <string name="hint_ventilate">Можна провітрити: тепло і безвітряно</string>
+    <string name="hint_close">Закрийте кватирки: сильний вітер</string>
+    <string name="hint_condensation">Ризик конденсату на покритті</string>
+    <string name="hint_water">ET₀ за добу ≈ %1$s мм — час поливати</string>
+    <string name="hint_neutral">Без термінових дій</string>
+
+    <string name="metric_humidity">💧 %1$s%%</string>
+    <string name="metric_wind">💨 %1$s м/с</string>
+    <string name="metric_precip">🌧 %1$s мм</string>
+    <string name="metric_night">🌙 %1$s</string>
+    <string name="feels_like">Відчувається як %1$s</string>
+</resources>
